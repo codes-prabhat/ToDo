@@ -1,0 +1,43 @@
+.div1{
+  flex:1;
+  height:100%;
+  background:rgb(243, 240, 240);
+}
+.div2{
+  flex:1;
+  height:100%;
+  background: darkgray;
+
+}
+body{
+  display:flex;
+  margin:0px;
+  padding: 0px;
+}
+#textbox{
+height:100%;
+width:100%;
+}
+.list_item{
+  align-items: right;
+  display: flex;
+  margin:10px;
+   border-bottom: 1px solid gray;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.close:hover {background: #bbb;}
+.close{
+  margin-left: 5px;
+  float: right;
+  text-align: right;
+}
+.fa{
+  margin-right: 2px;
+  margin-left: 7px;
+}
+.fa:hover{background: #bbb;}
